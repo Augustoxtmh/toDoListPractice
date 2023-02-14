@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(240, 237, 237);
+}
+.containerTasks{
+    margin: 20px 2.5% 0 2.5%;
+    border-radius: 10px;
+    border: solid 2px rgb(234, 234, 234);
+    background-color: rgb(245, 245, 245);
+    color: rgb(116, 131, 131);
+}

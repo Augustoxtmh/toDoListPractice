@@ -1,0 +1,63 @@
+li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    padding: 0;
+}
+
+.col-1{
+    width: 2.5%;
+    padding: 10px;
+}
+
+.col-10{
+    width: 90%;
+    padding-right: 0;
+}
+
+.tTask{
+    margin-top: 15px ;
+}
+
+.task{
+    margin-top: 5px;
+}
+
+.btn{
+    margin-bottom: 0;
+}
+
+#tittlePage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 225%; 
+    padding: 0 20px 0 20px; 
+    margin-bottom: 25px;
+    color: rgb(77, 86, 86);
+}
+
+@media (max-width: 580px){
+
+    .container{
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 530px){
+
+    .task{
+        width: 100%;
+    }
+}
+
+@media (max-width: 310px){
+
+    #tittlePage{
+        margin-top: 50px;
+    }
+    
+}
